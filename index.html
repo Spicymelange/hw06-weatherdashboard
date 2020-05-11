@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Or Not</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="grid-x grid-margin-x grid-padding-x">
+        <div id="searchCities" class="small-12 medium-2 cell">Search Bar and Button
+            <form>
+                <input class="form-group" placeholder="Search for a city">
+                <button class="button form-group" id="btn1" type="submit" value="Submit">Search</button>
+            </form>
+        </div>
+        <div class="small-12 medium-9 cell">
+            <div class="grid-x">
+                <div id="display" class="small-12 medium-10 cell">Date and City Info</div>
+            </div>
+            <div id="fiveDay" class="grid-x grid-margin-x card-section">
+                <div class="small-12 medium-2 cell">
+                    <div class="card" id="card0">
+                        <h5 id="0" class="cityDate"></h5>
+                        <h7 id="1" class="cityTemp"></h7>
+                        <h7 id="2" class="cityHum"></h7>
+                        <h7 id="3" class="cityWind"></h7>
+                        <h7 id="4" class="cityUV"></h7>
+                    </div>
+                </div>
+                <div class="small-12 medium-2 cell">
+                    <div class="card" id="card1">date 2</div>
+                </div>
+                <div class="small-12 medium-2 cell">
+                    <div class="card" id="card2">date 3</div>
+                </div>
+                <div class="small-12 medium-2 cell">
+                    <div class="card" id="card3">date 4</div>
+                </div>
+                <div class="small-12 medium-2 cell">
+                    <div class="card" id="5">date 5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
