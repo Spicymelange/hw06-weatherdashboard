@@ -24,3 +24,7 @@
 .cell {
     width: 120px;
 }
+
+.card {
+    visibility: hidden;
+}
